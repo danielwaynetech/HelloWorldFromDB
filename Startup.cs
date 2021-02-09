@@ -35,6 +35,7 @@ namespace HelloWorldFromDB
                     }
                 )
             );
+            services.AddSwaggerGen();
 
             services.AddControllers();
         }
@@ -69,7 +70,7 @@ namespace HelloWorldFromDB
         }
     }
 
-    internal class HelloWorldRepositoryContextFactory : IDesignTimeDbContextFactory<HelloWorldRepositoryContext>
+    public class HelloWorldRepositoryContextFactory : IDesignTimeDbContextFactory<HelloWorldRepositoryContext>
     {
         public HelloWorldRepositoryContext CreateDbContext(string[] args)
         {

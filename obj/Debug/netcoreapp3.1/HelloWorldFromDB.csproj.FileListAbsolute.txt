@@ -84,9 +84,6 @@ C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netco
 C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\e_sqlite3.dll
-C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\obj\Debug\netcoreapp3.1\HelloWorldFromDB.csproj.CoreCompileInputs.cache
-C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\obj\Debug\netcoreapp3.1\HelloWorldFromDB.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\obj\Debug\netcoreapp3.1\HelloWorldFromDB.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\HelloWorldFromDB.deps.json
 C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\HelloWorldFromDB.runtimeconfig.json
 C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\HelloWorldFromDB.runtimeconfig.dev.json
@@ -167,3 +164,13 @@ C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netco
 C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\obj\Debug\netcoreapp3.1\HelloWorldFromDB.dll
 C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\obj\Debug\netcoreapp3.1\HelloWorldFromDB.pdb
 C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\obj\Debug\netcoreapp3.1\HelloWorldFromDB.genruntimeconfig.cache
+C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\obj\Debug\netcoreapp3.1\HelloWorldFromDB.csproj.CoreCompileInputs.cache
+C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\obj\Debug\netcoreapp3.1\HelloWorldFromDB.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\obj\Debug\netcoreapp3.1\HelloWorldFromDB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\System.Web.Http.dll
+C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\System.Web.Http.WebHost.dll
+C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\Microsoft.Web.Infrastructure.dll
+C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\Swashbuckle.Core.dll
+C:\Users\MichaelS\source\repos\HelloWorldFromDB\HelloWorldFromDB\bin\Debug\netcoreapp3.1\WebActivatorEx.dll

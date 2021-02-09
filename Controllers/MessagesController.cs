@@ -9,25 +9,39 @@ using HelloWorldFromDB;
 
 namespace HelloWorldFromDB.Controllers
 {
+    /// <summary>
+    /// 
+    /// </summary>
     [Route("api/[controller]")]
     [ApiController]
     public class MessagesController : ControllerBase
     {
         private readonly HelloWorldRepositoryContext _context;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="context"></param>
         public MessagesController(HelloWorldRepositoryContext context)
         {
             _context = context;
         }
 
-        // GET: api/Messages
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public async Task<ActionResult<IEnumerable<Messages>>> GetMessages()
         {
             return await _context.Messages.ToListAsync();
         }
 
-        // GET: api/Messages/5
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpGet("{id}")]
         public async Task<ActionResult<Messages>> GetMessages(string id)
         {
@@ -41,9 +55,12 @@ namespace HelloWorldFromDB.Controllers
             return messages;
         }
 
-        // PUT: api/Messages/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+       /// <summary>
+       /// 
+       /// </summary>
+       /// <param name="id"></param>
+       /// <param name="messages"></param>
+       /// <returns></returns>
         [HttpPut("{id}")]
         public async Task<IActionResult> PutMessages(string id, Messages messages)
         {
@@ -73,9 +90,11 @@ namespace HelloWorldFromDB.Controllers
             return NoContent();
         }
 
-        // POST: api/Messages
-        // To protect from overposting attacks, enable the specific properties you want to bind to, for
-        // more details, see https://go.microsoft.com/fwlink/?linkid=2123754.
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="messages"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<ActionResult<Messages>> PostMessages(Messages messages)
         {
@@ -99,7 +118,11 @@ namespace HelloWorldFromDB.Controllers
             return CreatedAtAction("GetMessages", new { id = messages.Author }, messages);
         }
 
-        // DELETE: api/Messages/5
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public async Task<ActionResult<Messages>> DeleteMessages(string id)
         {
