@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Builder;
@@ -27,11 +28,17 @@ namespace HelloWorldFromDB
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            string connectionString = @"Server = (localdb)\mssqllocaldb; Database=LocalHWdb; Trusted_Connection=True;";
+
+            if (Configuration.GetConnectionString("HWDatabase") != null)
+            {
+                connectionString = Configuration.GetConnectionString("HWDatabase");
+            }
 
             services.AddTransient<HelloWorldRepositoryContext>(
                 serviceProvider => new HelloWorldRepositoryContextFactory().CreateDbContext(new string[]
                     {
-                        Configuration.GetConnectionString("HWDatabase")
+                        connectionString
                     }
                 )
             );
