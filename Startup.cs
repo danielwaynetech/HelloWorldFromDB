@@ -28,7 +28,7 @@ namespace HelloWorldFromDB
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string connectionString = @"Server = (localdb)\mssqllocaldb; Database=LocalHWdb; Trusted_Connection=True;";
+            string connectionString = @"Server=db;Database=master;User=sa;Password=Your_password123;";
 
             if (Configuration.GetConnectionString("HWDatabase") != null)
             {
